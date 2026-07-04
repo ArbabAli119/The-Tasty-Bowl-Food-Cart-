@@ -1,28 +1,31 @@
 # 🍲 The Tasty Bowl
-* **LIVE LINK:** https://the-tasty-bowl.vercel.app/
 
-"The Tasty Bowl" ek premium food ordering web application hai jo users ko ek seamless aur attractive interface ke zariye dishes explore karne aur order karne ki suvidha deta hai.
+## 🌐 Live Demo
+You can view the live version of the project here:
+**[View The Tasty Bowl](https://the-tasty-bowl.vercel.app/)**
 
-## 🚀 Features
-* **Modern UI/UX**: DM Sans aur Fraunces fonts ke saath ek premium look.
-* **Dynamic Menu**: Fetch API ka use karke JSON file se menu load hota hai.
-* **Dark Mode**: Smooth dark mode toggle functionality.
-* **Responsive Design**: Mobile, tablet, aur desktop par perfectly work karta hai.
-* **Search & Filter**: Dishes ko category-wise filter aur search karne ka option.
-* **Cart System**: Easy item selection aur cart management.
+"The Tasty Bowl" is a premium, modern food ordering web application designed to provide users with a seamless and visually appealing experience for exploring and ordering dishes.
+
+## 🚀 Key Features
+* **Modern UI/UX**: Built with a sophisticated design using DM Sans and Fraunces fonts.
+* **Dynamic Menu Rendering**: Utilizes the Fetch API to load menu data dynamically from a JSON file.
+* **Dark Mode**: A smooth, theme-toggling functionality for better accessibility and user preference.
+* **Responsive Design**: Fully optimized for mobile, tablet, and desktop viewports.
+* **Search & Filter**: Real-time filtering by category and quick search functionality.
+* **Interactive Cart**: Easy item selection and cart management system.
 
 ## 🛠️ Technologies Used
-* **HTML5**: Semantic structure ke liye.
-* **CSS3**: Layout, styling, aur responsive design (Flexbox/Grid).
-* **JavaScript (ES6+)**: Logic, DOM manipulation, aur Fetch API ke liye.
-* **Fetch API**: External `Food.json` se data retrieve karne ke liye.
-* **Lucide Icons**: Modern aur lightweight vector icons.
-* **Google Fonts**: Typographic excellence (DM Sans & Fraunces).
+* **HTML5**: Semantic structure and content organization.
+* **CSS3**: Layout design, styling, and complex responsive animations (Flexbox/Grid).
+* **JavaScript (ES6+)**: Core application logic, DOM manipulation, and interactivity.
+* **Fetch API**: Asynchronous data retrieval from `Food.json`.
+* **Lucide Icons**: Implementation of clean, modern vector icons.
+* **Google Fonts**: Typographic styling (DM Sans & Fraunces).
 
 ## 📂 Project Structure
 ```text
-├── index.html          # Main structure
-├── style.css           # Styling aur Dark Mode logic
-├── script.js           # JavaScript logic & API Integration
-├── Food.json           # Menu ka data
-└── Picture/            # Images aur Assets
+├── index.html          # Main HTML structure
+├── style.css           # Styling, layout, and Dark Mode transitions
+├── script.js           # JavaScript logic, API calls, and event handling
+├── Food.json           # External menu data source
+└── Picture/            # Assets and project imagery
