@@ -1,0 +1,434 @@
+[
+  {
+    "category": "veg",
+    "image": "./Picture/Shahi Paneer.jpeg",
+    "title": "Shahi Paneer",
+    "rating": 4.6,
+    "description": "Shahi Paneer is a rich and creamy North Indian dish made with tender paneer cubes in a spiced tomato-based sauce.",
+    "price": 200
+  },
+  {
+    "category": "veg",
+    "image": "./Picture/Lacha Paratha.jpeg",
+    "title": "Lacha Paratha",
+    "rating": 4.6,
+    "description": "Lacha Paratha is a popular North Indian dish made with layered flatbread filled with spiced potatoes and peas.",
+    "price": 20
+  },
+  {
+    "category": "veg",
+    "image": "./Picture/Chola Bhatura.jpeg",
+    "title": "Chola Bhatura",
+    "rating": 4.6,
+    "description": "Chola Bhatura is a popular North Indian dish consisting of spicy chickpeas served with deep-fried bread.",
+    "price": 100
+  },
+  {
+    "category": "veg",
+    "image": "./Picture/Chola.jpeg",
+    "title": "Chola",
+    "rating": 4.6,
+    "description": "Chola is a popular North Indian dish consisting of spicy chickpeas served with deep-fried bread.",
+    "price": 60
+  },
+  {
+    "category": "veg",
+    "image": "./Picture/Fried rice.jpeg",
+    "title": "Fried rice",
+    "rating": 4.6,
+    "description": "Fried rice is a popular dish made with cooked rice stir-fried with vegetables and seasonings.",
+    "price": 80
+  },
+  {
+    "category": "veg",
+    "image": "./Picture/Plain Naan.jpeg",
+    "title": "Plain Naan",
+    "rating": 4.6,
+    "description": "Plain Naan is a type of Indian bread that is soft and fluffy.",
+    "price": 20
+  },
+  {
+    "category": "veg",
+    "image": "./Picture/Regular Thali.jpeg",
+    "title": "Regular Thali",
+    "rating": 4.6,
+    "description": "Regular Thali is a complete meal consisting of various dishes.",
+    "price": 180
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/mutton miryani.jpeg",
+    "title": "Mutton Biryani",
+    "rating": 4.8,
+    "description": "Aromatic basmati rice cooked with tender mutton pieces and spices.",
+    "price": 350
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/chicken fry.jpeg",
+    "title": "Chicken Fry",
+    "rating": 4.8,
+    "description": "Crispy fried chicken pieces served with a side of salad.",
+    "price": 220
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/butter chicken.jpeg",
+    "title": "Butter Chicken",
+    "rating": 4.8,
+    "description": "Creamy and flavorful chicken cooked in a coil with butter and cream.",
+    "price": 240
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/sheek kabab.jpeg",
+    "title": "Sheek Kabab",
+    "rating": 4.8,
+    "description": "Tender and juicy skewers of marinated chicken grilled to perfection.",
+    "price": 80
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/shami kabab.jpg",
+    "title": "Shami Kabab",
+    "rating": 4.8,
+    "description": "Delicious minced chicken patties seasoned with spices and grilled to perfection.",
+    "price": 40
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/chicken kabab.webp",
+    "title": "Chicken Kabab",
+    "rating": 4.8,
+    "description": "Tender and juicy skewers of marinated chicken grilled to perfection.",
+    "price": 60
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/chicken tandoori.jpg",
+    "title": "Chicken Tandoori",
+    "rating": 4.8,
+    "description": "Tender and juicy skewers of marinated chicken grilled to perfection.",
+    "price": 340
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/chicken lolypop.jpg",
+    "title": "Chicken Lolypop",
+    "rating": 4.8,
+    "description": "Crispy and flavorful chicken pieces coated in a spicy sauce.",
+    "price": 320
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/Chilli_Chicken.webp",
+    "title": "Chilli Chicken",
+    "rating": 4.8,
+    "description": "Spicy and delicious chicken pieces cooked in a fiery chili sauce.",
+    "price": 260
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/shawrma roll.jpg",
+    "title": "Shawrma Roll",
+    "rating": 4.8,
+    "description": "A delicious roll filled with seasoned meat and vegetables.",
+    "price": 120
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/Handi Biryani.jpeg",
+    "title": "Handi Biryani",
+    "rating": 4.8,
+    "description": "Fragrant basmati rice layered with spiced chicken and fried onions.",
+    "price": 380
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/Chicken Roll.jpeg",
+    "title": "Chicken Roll",
+    "rating": 4.6,
+    "description": "A delicious roll filled with tender chicken pieces and served with a side of salad.",
+    "price": 120
+  },
+  {
+    "category": "nonveg",
+    "image": "./Picture/Full Chicken.jpeg",
+    "title": "Full Chicken",
+    "rating": 4.8,
+    "description": "A whole roasted chicken served with rice and a side of salad.",
+    "price": 600
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/boondiRaita.jpeg",
+    "title": "Boondi Raita",
+    "rating": 4.5,
+    "description": "A refreshing yogurt-based drink with a hint of cardamom and saffron.",
+    "price": 40
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/Rabdi Falooda.jpeg",
+    "title": "Rabdi Falooda",
+    "rating": 4.5,
+    "description": "A delightful dessert made with soaked rabdi and falooda pearls.",
+    "price": 120
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/Punjabi Lassi.jpeg",
+    "title": "Rajwadi Lassi",
+    "rating": 4.5,
+    "description": "A creamy and delicious lassi made with yogurt, milk, and a hint of cardamom.",
+    "price": 120
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/Shahi Chai.jpeg",
+    "title": "Shahi Chai",
+    "rating": 4.5,
+    "description": "A rich and aromatic tea infused with spices and served with milk.",
+    "price": 60
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/Kesaar Shake.jpeg",
+    "title": "Kesaar Shake",
+    "rating": 4.5,
+    "description": "A delicious milkshake made with kesaar (saffron) and served chilled.",
+    "price": 90
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/Mango Shake.jpeg",
+    "title": "Mango Shake",
+    "rating": 4.5,
+    "description": "A refreshing milkshake made with ripe mangoes and served chilled.",
+    "price": 60
+  },
+  {
+    "category": "beverage",
+    "image": "./Picture/Nibu Pani.jpeg",
+    "title": "Nibu Pani",
+    "rating": 4.5,
+    "description": "A refreshing drink made with natural ingredients and served chilled.",
+    "price": 30
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/Gulab Jamun.jpeg",
+    "title": "Gulab Jamun",
+    "rating": 4.9,
+    "description": "2 pieces of warm fudgy brownie topped with vanilla ice cream and chocolate sauce.",
+    "price": 60
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/Jalebi.jpeg",
+    "title": "Jalebi",
+    "rating": 4.8,
+    "description": "2 pieces of soft milk dumplings soaked in rose flavored sugar syrup.",
+    "price": 40
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/kajukatli.jpeg",
+    "title": "Kaju Katli",
+    "rating": 4.9,
+    "description": "2 pieces of rich and creamy cashew fudge soaked in sugar syrup.",
+    "price": 50
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/rasmalai.jpeg",
+    "title": "Rasmalai",
+    "rating": 4.9,
+    "description": "2 pieces of soft and spongy milk-based dessert soaked in sugar syrup.",
+    "price": 100
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/rasogulla.jpeg",
+    "title": "Rasogulla",
+    "rating": 4.9,
+    "description": "2 pieces of Soft and spongy milk-based dessert soaked in sugar syrup.",
+    "price": 60
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/kulfi.jpeg",
+    "title": "Kulfi",
+    "rating": 4.9,
+    "description": "2 pieces of Soft and spongy milk-based dessert soaked in sugar syrup.",
+    "price": 120
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/Samosa.jpeg",
+    "title": "Samosa Plate",
+    "rating": 4.4,
+    "description": "Crispy pastry filled with spiced potatoes, served with tangy chutney.",
+    "price": 60
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/Salad.jpeg",
+    "title": "Salad",
+    "rating": 4.4,
+    "description": "Fresh and healthy salad.",
+    "price": 30
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/Aloo Fries.jpeg",
+    "title": "Aloo Fries",
+    "rating": 4.4,
+    "description": "Crispy fried potato slices served with tangy chutney.",
+    "price": 50
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/papdi chat.jpeg",
+    "title": "Papdi Chat",
+    "rating": 4.4,
+    "description": "Crispy Papdi chat with spicy sauce and vegetables.",
+    "price": 50
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/Golgappa.jpeg",
+    "title": "Golgappa Small Plate",
+    "rating": 4.4,
+    "description": "Crispy golgappa with spicy water and vegetables.",
+    "price": 30
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/Namkeen.jpeg",
+    "title": "Namkeen",
+    "rating": 4.4,
+    "description": "Crispy namkeen with spices and herbs.",
+    "price": 50
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/PaniPuri.jpeg",
+    "title": "Pani Puri",
+    "rating": 4.4,
+    "description": "Crispy pani puri with spicy water and vegetables.",
+    "price": 65
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/Gathiya.jpeg",
+    "title": "Gathiya",
+    "rating": 4.4,
+    "description": "Crispy gathiya with spices and herbs.",
+    "price": 30
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/chakli.jpeg",
+    "title": "Chakli",
+    "rating": 4.4,
+    "description": "Crispy chakli with spices and herbs.",
+    "price": 25
+  },
+  {
+    "category": "snacks",
+    "image": "./Picture/sewbadam.jpeg",
+    "title": "Sew Badam",
+    "rating": 4.4,
+    "description": "Crispy sew badam with spices and herbs.",
+    "price": 50
+  },
+  {
+    "category": "south",
+    "image": "./Picture/Large Dosa.jpeg",
+    "title": "Masala Dosa",
+    "rating": 4.7,
+    "description": "Crispy rice crepe filled with spiced potato, served with sambar and chutney.",
+    "price": 180
+  },
+  {
+    "category": "south",
+    "image": "./Picture/Dahi Vada.jpeg",
+    "title": "Dahi Vada",
+    "rating": 4.7,
+    "description": "Crispy dahi vada with spices and herbs.",
+    "price": 60
+  },
+  {
+    "category": "south",
+    "image": "./Picture/Dhokla.jpeg",
+    "title": "Dhokla",
+    "rating": 4.7,
+    "description": "Crispy dhokla with spices and herbs.",
+    "price": 50
+  },
+  {
+    "category": "south",
+    "image": "./Picture/Idli.jpeg",
+    "title": "Idli",
+    "rating": 4.7,
+    "description": "Soft and fluffy idli with sambar and chutney.",
+    "price": 50
+  },
+  {
+    "category": "south",
+    "image": "./Picture/South Thali.jpeg",
+    "title": "South Thali",
+    "rating": 4.7,
+    "description": "A complete South Indian meal with various dishes.",
+    "price": 220
+  },
+  {
+    "category": "international",
+    "image": "./Picture/Mini Combo.jpeg",
+    "title": "Mini Combo",
+    "rating": 4.6,
+    "description": "Mini Combo include burger, colddrink etc",
+    "price": 140
+  },
+  {
+    "category": "international",
+    "image": "./Picture/Tomato Pizza.jpeg",
+    "title": "Tomato Pizza",
+    "rating": 4.6,
+    "description": "A delicious pizza topped with fresh tomatoes and herbs.",
+    "price": 120
+  },
+  {
+    "category": "international",
+    "image": "./Picture/Tacos.jpeg",
+    "title": "Tacos",
+    "rating": 4.6,
+    "description": "A delicious Mexican dish filled with seasoned meat, vegetables, and salsa.",
+    "price": 80
+  },
+  {
+    "category": "international",
+    "image": "./Picture/chowmin.jpg",
+    "title": "Chowmin",
+    "rating": 4.6,
+    "description": "A delicious Chinese dish filled with seasoned meat, vegetables, and sauce.",
+    "price": 120
+  },
+  {
+    "category": "international",
+    "image": "./Picture/Chicken Burger.jpeg",
+    "title": "Chicken Burger",
+    "rating": 4.8,
+    "description": "A delicious burger filled with tender chicken pieces and served with a side of salad.",
+    "price": 100
+  },
+  {
+    "category": "international",
+    "image": "./Picture/Chicken Pizza.jpeg",
+    "title": "Chicken Pizza",
+    "rating": 4.8,
+    "description": "A delicious pizza topped with juicy chicken pieces and a variety of vegetables.",
+    "price": 200
+  }
+]

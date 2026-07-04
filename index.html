@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Tasty Bowl — Premium Food Ordering</title>
+  
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.263.0/dist/umd/lucide.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,700;9..144,900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+  <!-- Cart Overlay & Panel -->
+  <div class="cart-overlay" id="cart-overlay"></div>
+  <aside class="cart-panel" id="cart-panel">
+    <div class="cart-header">
+      <h2 class="heading-font" style="font-size: 1.25rem;">Your Cart</h2>
+      <button class="icon-btn" id="close-cart"><i data-lucide="x"></i></button>
+    </div>
+    <div class="cart-body" id="cart-list"></div>
+    <div class="cart-footer">
+      <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 1.125rem; margin-bottom: 1rem;">
+        <span>Total:</span> <span id="cart-total" style="color: var(--primary);">₹0</span>
+      </div>
+      <button class="btn btn-primary" id="checkout-btn" style="width: 100%;">Checkout</button>
+    </div>
+  </aside>
+
+  <!-- Search Overlay & Panel -->
+  <div class="search-overlay" id="search-overlay"></div>
+  <div class="search-panel" id="search-panel">
+    <div class="search-box">
+      <i data-lucide="search" class="search-box-icon"></i>
+      <input type="text" id="search-input" class="search-input" placeholder="Search for dishes... e.g. Paneer, Biryani, Pizza" autocomplete="off">
+      <button class="icon-btn" id="close-search"><i data-lucide="x"></i></button>
+    </div>
+    <div class="search-results" id="search-results">
+      <p class="search-hint">Start typing to search our menu 🍽️</p>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header>
+    <div class="container nav-wrapper">
+      <a href="#home" class="logo heading-font">
+  <div class="logo-circle">
+    <img src="./Picture/myLogo.png" alt="Tasty Bowl Logo">
+  </div>
+  The Tasty Bowl
+</a>
+      
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#menu" class="nav-link">Menu</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+     <div class="nav-actions">
+        <!-- Search Button -->
+        <button class="icon-btn" id="open-search" aria-label="Search"><i data-lucide="search" style="width:20px;"></i></button>
+        
+        <!-- Cart Button -->
+        <button class="icon-btn cart-wrapper" id="open-cart" aria-label="Cart">
+          <i data-lucide="shopping-cart" style="width:20px;"></i>
+          <span class="cart-badge" id="cart-count">0</span>
+        </button>
+        
+        <!-- Order Now Button -->
+        <a href="#menu" class="btn btn-primary" style="display:none; padding: 0.5rem 1.25rem; font-size: 0.875rem;" id="desktop-order">Order Now</a>
+        
+        <!-- Dark Mode Button -->
+        <button class="icon-btn" id="theme-toggle" aria-label="Toggle Dark Mode">
+          <i data-lucide="moon" style="width:20px;"></i>
+        </button>
+
+        <!-- Hamburger Menu Button -->
+        <button class="icon-btn mobile-menu-btn" id="mobile-toggle"><i data-lucide="menu"></i></button>
+      </div>
+    </div>
+    
+    <!-- Mobile Menu -->
+    <div id="mobile-menu">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+  </header>
+
+  <style>@media(min-width: 640px) { #desktop-order { display: inline-flex !important; } }</style>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="container hero-grid">
+      <div class="reveal">
+        <span class="hero-tag">🔥 Craving Something Extraordinary? Your Feast Awaits!</span>
+        <h1 class="heading-font hero-title">Taste the Magic in Every Bite.<br>Delivered Hot, Fresh & Fast!</h1>
+        <p class="hero-desc">Welcome to The Tasty Bowl, where culinary passion meets ultimate convenience. Whether you are craving the rich spices of authentic Indian curries, the comforting crunch of street-style snacks, or a cheesy international delight, we have got you covered. Prepared with farm-fresh ingredients and crafted by master chefs, your next unforgettable meal is just a tap away. Say goodbye to hunger pangs and hello to instant gratification!</p>
+        <div class="hero-btns">
+          <a href="#menu" class="btn btn-primary">Order Now</a>
+          <a href="#menu" class="btn btn-outline">Explore Menu</a>
+        </div>
+      </div>
+      <div class="hero-img-box reveal">
+        <img class="hero-img" src="./Picture/foodboy.png" alt="Foodie Hero Image">
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="section-white">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="heading-font section-title">Our Premium Menu</h2>
+        <p class="section-desc">Handpicked favorites made fresh every day, from comforting classics to festive treats.</p>
+      </div>
+      
+      <div class="filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="veg">Veg</button>
+        <button class="filter-btn" data-filter="nonveg">Non-Veg</button>
+        <button class="filter-btn" data-filter="beverage">Beverages</button>
+        <button class="filter-btn" data-filter="dessert">Desserts</button>
+        <button class="filter-btn" data-filter="snacks">Snacks</button>
+        <button class="filter-btn" data-filter="south">South Indian</button>
+        <button class="filter-btn" data-filter="international">International</button>
+      </div>
+
+      <div class="menu-grid" id="menu-grid">
+        <!-- JS Injects Cards Here -->
+      </div>
+      
+      <div id="view-more-container" style="text-align: center; margin-top: 3rem; display: none;">
+        <button id="view-more-btn" class="btn btn-outline" style="border-color: var(--primary); color: var(--primary);">
+          View More Items <i data-lucide="chevron-down" style="width: 18px;"></i>
+        </button>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="hero-tag">✨ The Tasty Bowl Promise</span>
+        <h2 class="heading-font section-title">Elevating Your Dining Experience</h2>
+        <p class="section-desc">We believe that great food should always come with exceptional service. From our kitchen to your dining table, we go the extra mile to ensure every aspect of your order is flawless, fast, and absolutely fantastic.</p>
+      </div>
+      <div class="services-grid">
+        <article class="service-card reveal">
+          <div class="service-icon" style="background:#ffedd5; color:#ea580c;"><i data-lucide="bike"></i></div>
+          <h3 class="heading-font" style="font-size: 1.125rem; font-weight:700; margin-bottom:0.5rem;">Lightning-Fast Delivery</h3>
+          <p style="font-size:0.875rem; color:var(--text-muted);">Hunger doesn't wait, and neither should you. Our dedicated fleet ensures that your food reaches your doorstep piping hot in 30 minutes or less.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon" style="background:#fee2e2; color:#dc2626;"><i data-lucide="leaf"></i></div>
+          <h3 class="heading-font" style="font-size: 1.125rem; font-weight:700; margin-bottom:0.5rem;">Farm-Fresh Ingredients</h3>
+          <p style="font-size:0.875rem; color:var(--text-muted);">Great taste starts with great ingredients. We strictly source our daily produce from trusted farms and use 100% pure, authentic spices.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon" style="background:#fef3c7; color:#d97706;"><i data-lucide="smartphone"></i></div>
+          <h3 class="heading-font" style="font-size: 1.125rem; font-weight:700; margin-bottom:0.5rem;">Seamless Ordering</h3>
+          <p style="font-size:0.875rem; color:var(--text-muted);">Our user-friendly platform lets you browse, customize, and place your order in just a few clicks. Food delivery has never been this effortless.</p>
+        </article>
+        <article class="service-card reveal">
+          <div class="service-icon" style="background:#ffedd5; color:#ea580c;"><i data-lucide="headphones"></i></div>
+          <h3 class="heading-font" style="font-size: 1.125rem; font-weight:700; margin-bottom:0.5rem;">24/7 Customer Love</h3>
+          <p style="font-size:0.875rem; color:var(--text-muted);">Your satisfaction is our priority. Whether you have a dietary request or need to track a midnight snack, our support team is always ready to assist.</p>
+        </article>
+      </div>
+
+      <div class="services-stats reveal">
+        <div>
+          <span class="stat-number heading-font">50K+</span>
+          <span class="stat-label">Orders Delivered</span>
+        </div>
+        <div>
+          <span class="stat-number heading-font">4.8★</span>
+          <span class="stat-label">Average Rating</span>
+        </div>
+        <div>
+          <span class="stat-number heading-font">30 Min</span>
+          <span class="stat-label">Avg. Delivery Time</span>
+        </div>
+        <div>
+          <span class="stat-number heading-font">8+</span>
+          <span class="stat-label">Years of Service</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section-white">
+    <div class="container about-grid">
+      <div class="reveal about-img-box">
+        <img class="about-img" src="./Picture/Cheif.png" alt="Our kitchen">
+        <div class="about-badge">
+          <div class="about-badge-icon"><i data-lucide="award" style="width:20px;"></i></div>
+          <div>
+            <strong style="color: black !important; display: block;">Award Winning</strong>
+            <span style="color: black !important;">Best Kitchen 2026</span>
+          </div>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="about-tag">🍳 Our Culinary Journey</span>
+        <h2 class="heading-font section-title" style="text-align: left; margin-bottom: 1rem;">Cooked with Passion, Served with Love!</h2>
+        <p style="color: var(--text-muted); margin-bottom: 1.5rem; line-height:1.6;">"The Tasty Bowl" isn't just a food delivery service; it is a celebration of flavor, family, and tradition. Our journey began in a small, bustling kitchen with a simple yet ambitious dream: to make premium, restaurant-quality food accessible to everyone, right in the comfort of their homes. We spent years perfecting our secret recipes, blending rich culinary heritage with modern cooking techniques. Today, fueled by the love and trust of thousands of happy foodies, we continue to push the boundaries of taste.</p>
+
+        <ul class="about-features">
+          <li><i data-lucide="check-circle"></i> 100% FSSAI Certified, Ultra-Hygienic Cloud Kitchen Setup.</li>
+          <li><i data-lucide="check-circle"></i> Handpicked Master Chefs with Decades of 5-Star Experience.</li>
+          <li><i data-lucide="check-circle"></i> 100% Eco-Friendly, Spill-Proof, and Food-Safe Packaging.</li>
+        </ul>
+
+        <div class="about-boxes">
+          <div class="about-box">
+            <h3 class="heading-font">Our Mission</h3>
+            <p>To democratize great food and satisfy your everyday cravings with meals that are consistently fresh, incredibly delicious, and surprisingly affordable.</p>
+          </div>
+          <div class="about-box">
+            <h3 class="heading-font">Our Vision</h3>
+            <p>To evolve into India's most beloved and reliable food delivery brand, creating joyful dining memories for every single customer we serve.</p>
+          </div>
+        </div>
+        
+        <div class="stats">
+          <div>
+            <p class="heading-font" style="font-size: 1.5rem; font-weight: 900; color: var(--primary);">8+</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Years Experience</p>
+          </div>
+          <div>
+            <p class="heading-font" style="font-size: 1.5rem; font-weight: 900; color: var(--secondary);">50K+</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Happy Customers</p>
+          </div>
+          <div>
+            <p class="heading-font" style="font-size: 1.5rem; font-weight: 900; color: #16a34a;">4.8★</p>
+            <p style="font-size: 0.875rem; color: var(--text-muted);">Average Rating</p>
+          </div>
+        </div>
+        <a href="#contact" class="btn btn-primary" style="box-shadow: var(--shadow-md); margin-top: 1rem;">Get In Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-light">
+    <div class="container">
+      <div class="section-header reveal">
+        <h2 class="heading-font section-title">Let’s Talk Food! We'd Love to Hear From You.</h2>
+        <p class="section-desc">Have a question about our menu? Planning a large corporate catering event? Or perhaps you just want to share feedback about your recent meal? Whatever it is, our team is all ears.</p>
+      </div>
+      
+      <div class="contact-grid">
+        <form class="contact-form reveal" id="contact-form">
+          <div class="input-group">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" class="input-control" required>
+          </div>
+          <div class="input-group">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" class="input-control" required>
+          </div>
+          <div class="input-group">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" class="input-control">
+          </div>
+          <div class="input-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" class="input-control" required style="resize: none;"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+          <p id="contact-success" style="display: none; text-align: center; color: #16a34a; font-weight: 600; margin-top: 1rem;">Thanks! We'll get back to you soon.</p>
+        </form>
+        
+        <div class="reveal">
+
+          <div class="contact-info-card">
+            <div class="ci-icon" style="background:#fef3c7; color:#d97706;"><i data-lucide="user"></i></div>
+            <div>
+              <h3 class="heading-font" style="font-size:1rem; font-weight:700; margin-bottom:0.25rem;">Owner</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">Mr. Arbab Ali</p>
+            </div>
+          </div>
+
+            <div class="contact-info-card">
+            <div class="ci-icon" style="background:#ffedd5; color:#ea580c;"><i data-lucide="map-pin"></i></div>
+            <div>
+              <h3 class="heading-font" style="font-size:1rem; font-weight:700; margin-bottom:0.25rem;">Our Address</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">Near Red FM, Noida Sector 15, Delhi NCR</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="ci-icon" style="background:#fee2e2; color:#dc2626;"><i data-lucide="phone"></i></div>
+            <div>
+              <h3 class="heading-font" style="font-size:1rem; font-weight:700; margin-bottom:0.25rem;">Call Us</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">+91 7004329376</p>
+            </div>
+          </div>
+          <div class="contact-info-card">
+            <div class="ci-icon" style="background:#fef3c7; color:#d97706;"><i data-lucide="mail"></i></div>
+            <div>
+              <h3 class="heading-font" style="font-size:1rem; font-weight:700; margin-bottom:0.25rem;">Email Us</h3>
+              <p style="font-size:0.875rem; color:var(--text-muted);">arbabali361@gmail.com</p>
+            </div>
+          </div>
+          
+          <div class="map-banner">
+            <i data-lucide="map" style="width:32px; height:32px; margin-bottom:0.5rem;"></i>
+            <p style="font-weight:600;">Serving all across Delhi NCR</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enhanced Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        
+        <!-- Column 1: Brand Info -->
+        <div>
+          <p class="heading-font logo" style="margin-bottom:1rem; font-size: 1.75rem;">The Tasty Bowl</p>
+          <p class="footer-text" style="margin-bottom: 1.5rem;">Bringing authentic flavors, farm-fresh ingredients, and lightning-fast delivery right to your doorstep. Taste the magic today.</p>
+          <div class="social-links" style="gap: 1rem;">
+            <a href="#" class="social-btn" aria-label="Facebook"><i data-lucide="facebook" style="width:18px;"></i></a>
+            <a href="#" class="social-btn" aria-label="Instagram"><i data-lucide="instagram" style="width:18px;"></i></a>
+            <a href="#" class="social-btn" aria-label="Twitter"><i data-lucide="twitter" style="width:18px;"></i></a>
+          </div>
+        </div>
+        
+        <!-- Column 2: Quick Links -->
+        <div>
+          <h3 class="heading-font footer-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#menu">Our Menu</a></li>
+            <li><a href="#services">Why Choose Us</a></li>
+            <li><a href="#about">Our Story</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        
+        <!-- Column 3: Our Services (New Column) -->
+        <div>
+          <h3 class="heading-font footer-title">Our Services</h3>
+          <ul class="footer-links">
+            <li><a href="#menu">Online Ordering</a></li>
+            <li><a href="#contact">Corporate Catering</a></li>
+            <li><a href="#contact">Party & Bulk Orders</a></li>
+            <li><a href="#">Food Subscriptions</a></li>
+            <li><a href="#">Track Your Order</a></li>
+          </ul>
+        </div>
+        
+        <!-- Column 4: Contact & Newsletter -->
+        <div>
+          <h3 class="heading-font footer-title">Opening Hours</h3>
+          <p class="footer-text" style="margin-bottom: 1.5rem;">
+            <strong style="color: #fff;">Mon - Fri:</strong> 10:00 AM - 11:00 PM<br>
+            <strong style="color: #fff;">Sat - Sun:</strong> 10:00 AM - 12:00 AM
+          </p>
+          <h3 class="heading-font footer-title">Newsletter</h3>
+          <p class="footer-text">Subscribe for exclusive offers and updates.</p>
+          <form class="newsletter" id="news-form">
+            <input type="email" placeholder="Enter your email" class="news-input" required>
+            <button type="submit" class="btn btn-primary" style="padding: 0.5rem 1rem;">Join</button>
+          </form>
+          <p id="news-success" style="display:none; color: #4ade80; font-size:0.85rem; margin-top:0.5rem; font-weight:600;">Successfully Subscribed!</p>
+        </div>
+
+      </div>
+      
+      <div class="footer-bottom">
+        <p>© 2026 The Tasty Bowl. All rights reserved. Designed with ❤️ for foodies.</p>
+      </div>
+    </div>
+  </footer>
+
+  <div id="toast" class="toast"></div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
