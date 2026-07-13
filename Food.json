@@ -4,7 +4,7 @@
     "image": "./Picture/Shahi Paneer.jpeg",
     "title": "Shahi Paneer",
     "rating": 4.6,
-    "description": "Shahi Paneer is a rich and creamy North Indian dish made with tender paneer cubes in a spiced tomato-based sauce.",
+    "description": "Freshly prepared Shahi Paneer using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 200
   },
   {
@@ -12,7 +12,7 @@
     "image": "./Picture/Lacha Paratha.jpeg",
     "title": "Lacha Paratha",
     "rating": 4.6,
-    "description": "Lacha Paratha is a popular North Indian dish made with layered flatbread filled with spiced potatoes and peas.",
+    "description": "Freshly prepared Lacha Paratha using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 20
   },
   {
@@ -20,7 +20,7 @@
     "image": "./Picture/Chola Bhatura.jpeg",
     "title": "Chola Bhatura",
     "rating": 4.6,
-    "description": "Chola Bhatura is a popular North Indian dish consisting of spicy chickpeas served with deep-fried bread.",
+    "description": "Freshly prepared Chola Bhatura using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 100
   },
   {
@@ -28,7 +28,7 @@
     "image": "./Picture/Chola.jpeg",
     "title": "Chola",
     "rating": 4.6,
-    "description": "Chola is a popular North Indian dish consisting of spicy chickpeas served with deep-fried bread.",
+    "description": "Freshly prepared Chola using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -36,7 +36,7 @@
     "image": "./Picture/Fried rice.jpeg",
     "title": "Fried rice",
     "rating": 4.6,
-    "description": "Fried rice is a popular dish made with cooked rice stir-fried with vegetables and seasonings.",
+    "description": "Freshly prepared Fried rice using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 80
   },
   {
@@ -44,7 +44,7 @@
     "image": "./Picture/Plain Naan.jpeg",
     "title": "Plain Naan",
     "rating": 4.6,
-    "description": "Plain Naan is a type of Indian bread that is soft and fluffy.",
+    "description": "Freshly prepared Plain Naan using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 20
   },
   {
@@ -52,7 +52,7 @@
     "image": "./Picture/Regular Thali.jpeg",
     "title": "Regular Thali",
     "rating": 4.6,
-    "description": "Regular Thali is a complete meal consisting of various dishes.",
+    "description": "Freshly prepared Regular Thali using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 180
   },
   {
@@ -60,7 +60,7 @@
     "image": "./Picture/mutton miryani.jpeg",
     "title": "Mutton Biryani",
     "rating": 4.8,
-    "description": "Aromatic basmati rice cooked with tender mutton pieces and spices.",
+    "description": "Freshly prepared Mutton Biryani using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 350
   },
   {
@@ -68,7 +68,7 @@
     "image": "./Picture/chicken fry.jpeg",
     "title": "Chicken Fry",
     "rating": 4.8,
-    "description": "Crispy fried chicken pieces served with a side of salad.",
+    "description": "Freshly prepared Chicken Fry using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 220
   },
   {
@@ -76,7 +76,7 @@
     "image": "./Picture/butter chicken.jpeg",
     "title": "Butter Chicken",
     "rating": 4.8,
-    "description": "Creamy and flavorful chicken cooked in a coil with butter and cream.",
+    "description": "Freshly prepared Butter Chicken using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 240
   },
   {
@@ -84,7 +84,7 @@
     "image": "./Picture/sheek kabab.jpeg",
     "title": "Sheek Kabab",
     "rating": 4.8,
-    "description": "Tender and juicy skewers of marinated chicken grilled to perfection.",
+    "description": "Freshly prepared Sheek Kabab using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 80
   },
   {
@@ -92,7 +92,7 @@
     "image": "./Picture/shami kabab.jpg",
     "title": "Shami Kabab",
     "rating": 4.8,
-    "description": "Delicious minced chicken patties seasoned with spices and grilled to perfection.",
+    "description": "Freshly prepared Shami Kabab using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 40
   },
   {
@@ -100,7 +100,7 @@
     "image": "./Picture/chicken kabab.webp",
     "title": "Chicken Kabab",
     "rating": 4.8,
-    "description": "Tender and juicy skewers of marinated chicken grilled to perfection.",
+    "description": "Freshly prepared Chicken Kabab using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -108,7 +108,7 @@
     "image": "./Picture/chicken tandoori.jpg",
     "title": "Chicken Tandoori",
     "rating": 4.8,
-    "description": "Tender and juicy skewers of marinated chicken grilled to perfection.",
+    "description": "Freshly prepared Chicken Tandoori using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 340
   },
   {
@@ -116,7 +116,7 @@
     "image": "./Picture/chicken lolypop.jpg",
     "title": "Chicken Lolypop",
     "rating": 4.8,
-    "description": "Crispy and flavorful chicken pieces coated in a spicy sauce.",
+    "description": "Freshly prepared Chicken Lolypop using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 320
   },
   {
@@ -124,7 +124,7 @@
     "image": "./Picture/Chilli_Chicken.webp",
     "title": "Chilli Chicken",
     "rating": 4.8,
-    "description": "Spicy and delicious chicken pieces cooked in a fiery chili sauce.",
+    "description": "Freshly prepared Chilli Chicken using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 260
   },
   {
@@ -132,7 +132,7 @@
     "image": "./Picture/shawrma roll.jpg",
     "title": "Shawrma Roll",
     "rating": 4.8,
-    "description": "A delicious roll filled with seasoned meat and vegetables.",
+    "description": "Freshly prepared Shawrma Roll using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -140,7 +140,7 @@
     "image": "./Picture/Handi Biryani.jpeg",
     "title": "Handi Biryani",
     "rating": 4.8,
-    "description": "Fragrant basmati rice layered with spiced chicken and fried onions.",
+    "description": "Freshly prepared Handi Biryani using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 380
   },
   {
@@ -148,7 +148,7 @@
     "image": "./Picture/Chicken Roll.jpeg",
     "title": "Chicken Roll",
     "rating": 4.6,
-    "description": "A delicious roll filled with tender chicken pieces and served with a side of salad.",
+    "description": "Freshly prepared Chicken Roll using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -156,7 +156,7 @@
     "image": "./Picture/Full Chicken.jpeg",
     "title": "Full Chicken",
     "rating": 4.8,
-    "description": "A whole roasted chicken served with rice and a side of salad.",
+    "description": "Freshly prepared Full Chicken using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 600
   },
   {
@@ -164,7 +164,7 @@
     "image": "./Picture/boondiRaita.jpeg",
     "title": "Boondi Raita",
     "rating": 4.5,
-    "description": "A refreshing yogurt-based drink with a hint of cardamom and saffron.",
+    "description": "Freshly prepared Boondi Raita using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 40
   },
   {
@@ -172,7 +172,7 @@
     "image": "./Picture/Rabdi Falooda.jpeg",
     "title": "Rabdi Falooda",
     "rating": 4.5,
-    "description": "A delightful dessert made with soaked rabdi and falooda pearls.",
+    "description": "Freshly prepared Rabdi Falooda using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -180,7 +180,7 @@
     "image": "./Picture/Punjabi Lassi.jpeg",
     "title": "Rajwadi Lassi",
     "rating": 4.5,
-    "description": "A creamy and delicious lassi made with yogurt, milk, and a hint of cardamom.",
+    "description": "Freshly prepared Rajwadi Lassi using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -188,7 +188,7 @@
     "image": "./Picture/Shahi Chai.jpeg",
     "title": "Shahi Chai",
     "rating": 4.5,
-    "description": "A rich and aromatic tea infused with spices and served with milk.",
+    "description": "Freshly prepared Shahi Chai using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -196,7 +196,7 @@
     "image": "./Picture/Kesaar Shake.jpeg",
     "title": "Kesaar Shake",
     "rating": 4.5,
-    "description": "A delicious milkshake made with kesaar (saffron) and served chilled.",
+    "description": "Freshly prepared Kesaar Shake using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 90
   },
   {
@@ -204,7 +204,7 @@
     "image": "./Picture/Mango Shake.jpeg",
     "title": "Mango Shake",
     "rating": 4.5,
-    "description": "A refreshing milkshake made with ripe mangoes and served chilled.",
+    "description": "Freshly prepared Mango Shake using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -212,7 +212,7 @@
     "image": "./Picture/Nibu Pani.jpeg",
     "title": "Nibu Pani",
     "rating": 4.5,
-    "description": "A refreshing drink made with natural ingredients and served chilled.",
+    "description": "Freshly prepared Nibu Pani using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 30
   },
   {
@@ -220,7 +220,7 @@
     "image": "./Picture/Gulab Jamun.jpeg",
     "title": "Gulab Jamun",
     "rating": 4.9,
-    "description": "2 pieces of warm fudgy brownie topped with vanilla ice cream and chocolate sauce.",
+    "description": "Freshly prepared Gulab Jamun using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -228,7 +228,7 @@
     "image": "./Picture/Jalebi.jpeg",
     "title": "Jalebi",
     "rating": 4.8,
-    "description": "2 pieces of soft milk dumplings soaked in rose flavored sugar syrup.",
+    "description": "Freshly prepared Jalebi using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 40
   },
   {
@@ -236,7 +236,7 @@
     "image": "./Picture/kajukatli.jpeg",
     "title": "Kaju Katli",
     "rating": 4.9,
-    "description": "2 pieces of rich and creamy cashew fudge soaked in sugar syrup.",
+    "description": "Freshly prepared Kaju Katli using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -244,7 +244,7 @@
     "image": "./Picture/rasmalai.jpeg",
     "title": "Rasmalai",
     "rating": 4.9,
-    "description": "2 pieces of soft and spongy milk-based dessert soaked in sugar syrup.",
+    "description": "Freshly prepared Rasmalai using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 100
   },
   {
@@ -252,7 +252,7 @@
     "image": "./Picture/rasogulla.jpeg",
     "title": "Rasogulla",
     "rating": 4.9,
-    "description": "2 pieces of Soft and spongy milk-based dessert soaked in sugar syrup.",
+    "description": "Freshly prepared Rasogulla using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -260,7 +260,15 @@
     "image": "./Picture/kulfi.jpeg",
     "title": "Kulfi",
     "rating": 4.9,
-    "description": "2 pieces of Soft and spongy milk-based dessert soaked in sugar syrup.",
+    "description": "Freshly prepared Kulfi using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
+    "price": 120
+  },
+  {
+    "category": "dessert",
+    "image": "./Picture/Sewaiyan.jpeg",
+    "title": "Sewaiyan",
+    "rating": 4.9,
+    "description": "Freshly prepared Sewaiyan using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -268,7 +276,7 @@
     "image": "./Picture/Samosa.jpeg",
     "title": "Samosa Plate",
     "rating": 4.4,
-    "description": "Crispy pastry filled with spiced potatoes, served with tangy chutney.",
+    "description": "Freshly prepared Samosa Plate using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -276,7 +284,7 @@
     "image": "./Picture/Salad.jpeg",
     "title": "Salad",
     "rating": 4.4,
-    "description": "Fresh and healthy salad.",
+    "description": "Freshly prepared Salad using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 30
   },
   {
@@ -284,7 +292,7 @@
     "image": "./Picture/Aloo Fries.jpeg",
     "title": "Aloo Fries",
     "rating": 4.4,
-    "description": "Crispy fried potato slices served with tangy chutney.",
+    "description": "Freshly prepared Aloo Fries using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -292,7 +300,7 @@
     "image": "./Picture/papdi chat.jpeg",
     "title": "Papdi Chat",
     "rating": 4.4,
-    "description": "Crispy Papdi chat with spicy sauce and vegetables.",
+    "description": "Freshly prepared Papdi Chat using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -300,7 +308,7 @@
     "image": "./Picture/Golgappa.jpeg",
     "title": "Golgappa Small Plate",
     "rating": 4.4,
-    "description": "Crispy golgappa with spicy water and vegetables.",
+    "description": "Freshly prepared Golgappa Small Plate using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 30
   },
   {
@@ -308,7 +316,7 @@
     "image": "./Picture/Namkeen.jpeg",
     "title": "Namkeen",
     "rating": 4.4,
-    "description": "Crispy namkeen with spices and herbs.",
+    "description": "Freshly prepared Namkeen using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -316,7 +324,7 @@
     "image": "./Picture/PaniPuri.jpeg",
     "title": "Pani Puri",
     "rating": 4.4,
-    "description": "Crispy pani puri with spicy water and vegetables.",
+    "description": "Freshly prepared Pani Puri using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 65
   },
   {
@@ -324,7 +332,7 @@
     "image": "./Picture/Gathiya.jpeg",
     "title": "Gathiya",
     "rating": 4.4,
-    "description": "Crispy gathiya with spices and herbs.",
+    "description": "Freshly prepared Gathiya using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 30
   },
   {
@@ -332,7 +340,7 @@
     "image": "./Picture/chakli.jpeg",
     "title": "Chakli",
     "rating": 4.4,
-    "description": "Crispy chakli with spices and herbs.",
+    "description": "Freshly prepared Chakli using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 25
   },
   {
@@ -340,7 +348,7 @@
     "image": "./Picture/sewbadam.jpeg",
     "title": "Sew Badam",
     "rating": 4.4,
-    "description": "Crispy sew badam with spices and herbs.",
+    "description": "Freshly prepared Sew Badam using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -348,15 +356,23 @@
     "image": "./Picture/Large Dosa.jpeg",
     "title": "Masala Dosa",
     "rating": 4.7,
-    "description": "Crispy rice crepe filled with spiced potato, served with sambar and chutney.",
-    "price": 180
+    "description": "Freshly prepared Masala Dosa using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
+    "price": 140
+  },
+  {
+    "category": "south",
+    "image": "./Picture/Paneer Dosa.jpeg",
+    "title": "Paneer Dosa",
+    "rating": 4.7,
+    "description": "Freshly prepared Paneer Dosa using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
+    "price": 160
   },
   {
     "category": "south",
     "image": "./Picture/Dahi Vada.jpeg",
     "title": "Dahi Vada",
     "rating": 4.7,
-    "description": "Crispy dahi vada with spices and herbs.",
+    "description": "Freshly prepared Dahi Vada using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 60
   },
   {
@@ -364,7 +380,7 @@
     "image": "./Picture/Dhokla.jpeg",
     "title": "Dhokla",
     "rating": 4.7,
-    "description": "Crispy dhokla with spices and herbs.",
+    "description": "Freshly prepared Dhokla using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -372,7 +388,7 @@
     "image": "./Picture/Idli.jpeg",
     "title": "Idli",
     "rating": 4.7,
-    "description": "Soft and fluffy idli with sambar and chutney.",
+    "description": "Freshly prepared Idli using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 50
   },
   {
@@ -380,7 +396,7 @@
     "image": "./Picture/South Thali.jpeg",
     "title": "South Thali",
     "rating": 4.7,
-    "description": "A complete South Indian meal with various dishes.",
+    "description": "Freshly prepared South Thali using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 220
   },
   {
@@ -388,7 +404,7 @@
     "image": "./Picture/Mini Combo.jpeg",
     "title": "Mini Combo",
     "rating": 4.6,
-    "description": "Mini Combo include burger, colddrink etc",
+    "description": "Freshly prepared Mini Combo using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 140
   },
   {
@@ -396,7 +412,7 @@
     "image": "./Picture/Tomato Pizza.jpeg",
     "title": "Tomato Pizza",
     "rating": 4.6,
-    "description": "A delicious pizza topped with fresh tomatoes and herbs.",
+    "description": "Freshly prepared Tomato Pizza using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -404,7 +420,7 @@
     "image": "./Picture/Tacos.jpeg",
     "title": "Tacos",
     "rating": 4.6,
-    "description": "A delicious Mexican dish filled with seasoned meat, vegetables, and salsa.",
+    "description": "Freshly prepared Tacos using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 80
   },
   {
@@ -412,7 +428,7 @@
     "image": "./Picture/chowmin.jpg",
     "title": "Chowmin",
     "rating": 4.6,
-    "description": "A delicious Chinese dish filled with seasoned meat, vegetables, and sauce.",
+    "description": "Freshly prepared Chowmin using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 120
   },
   {
@@ -420,7 +436,7 @@
     "image": "./Picture/Chicken Burger.jpeg",
     "title": "Chicken Burger",
     "rating": 4.8,
-    "description": "A delicious burger filled with tender chicken pieces and served with a side of salad.",
+    "description": "Freshly prepared Chicken Burger using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 100
   },
   {
@@ -428,7 +444,7 @@
     "image": "./Picture/Chicken Pizza.jpeg",
     "title": "Chicken Pizza",
     "rating": 4.8,
-    "description": "A delicious pizza topped with juicy chicken pieces and a variety of vegetables.",
+    "description": "Freshly prepared Chicken Pizza using premium ingredients, authentic herbs, rich spices, and traditional cooking techniques to deliver exceptional flavor, irresistible aroma, and a truly satisfying dining experience.",
     "price": 200
   }
 ]
